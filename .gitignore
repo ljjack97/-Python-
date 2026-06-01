@@ -33,3 +33,22 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Config with secrets
+config.json
+
+# Test data
+test截图/
+tests/fixtures/*.scr
+tests/fixtures/*.png
+tests/fixtures/*.jpg
+
+# Temp files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Potrace binary (large)
+tools/potrace.exe
+tools/potrace.zip
+tools/potrace_tmp/
